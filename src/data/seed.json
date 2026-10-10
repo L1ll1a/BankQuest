@@ -1,0 +1,51 @@
+{
+  "onboarded": false,
+  "profile": null,
+  "level": 7,
+  "xp": 2450,
+  "streak": 8,
+  "achievements": 12,
+  "goals": [],
+  "quests": [
+    {
+      "id": "q-week",
+      "type": "budget",
+      "title": "Неделя без лишних трат",
+      "xp": 150,
+      "progress": 4,
+      "total": 7,
+      "unit": "days",
+      "status": "active"
+    }
+  ],
+  "rewards": [
+    {
+      "id": "r-music",
+      "title": "Подписка на музыку, 1 месяц",
+      "partner": "Музыкальный сервис",
+      "minLevel": 5,
+      "code": "BQ-MUS-5"
+    },
+    {
+      "id": "r-games",
+      "title": "Скидка 15% на игры",
+      "partner": "Игровой магазин",
+      "minLevel": 7,
+      "code": "BQ-GAM-7"
+    },
+    {
+      "id": "r-cinema",
+      "title": "Билет в кино",
+      "partner": "Кинопартнёр",
+      "minLevel": 10,
+      "code": "BQ-CIN-10"
+    }
+  ],
+  "skills": {
+    "savings": 72,
+    "budget": 55,
+    "safety": 80,
+    "planning": 20,
+    "investing": 5
+  }
+}
