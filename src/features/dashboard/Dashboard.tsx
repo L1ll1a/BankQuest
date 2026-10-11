@@ -5,6 +5,8 @@ import GoalsList from './GoalsList'
 import QuestsList from './QuestsList'
 import RewardsList from './RewardsList'
 import FinProfile from './FinProfile'
+import DemoPanel from '../demo-panel/DemoPanel'
+import CelebrationModal from '../demo-panel/CelebrationModal'
 
 export default function Dashboard() {
   const reset = useApp((s) => s.reset)
@@ -17,6 +19,7 @@ export default function Dashboard() {
       <QuestsList />
       <RewardsList />
       <FinProfile />
+      <DemoPanel />
       <button
         className="w-full rounded-xl bg-gray-200 py-2 text-xs font-semibold text-gray-600"
         onClick={() => {
@@ -26,6 +29,7 @@ export default function Dashboard() {
       >
         Сбросить демо
       </button>
+      <CelebrationModal />
     </div>
   )
 }
